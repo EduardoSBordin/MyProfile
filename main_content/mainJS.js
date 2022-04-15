@@ -7,9 +7,19 @@ let h4 = document.getElementById('h4');
 let btnHeader1 = document.getElementById('btnHeader1');
 let btnHeader2 = document.getElementById('btnHeader2');
 let btnHeader3 = document.getElementById('btnHeader3');
+let infTeste = document.getElementById('infTeste');
+let btnWhatsapp = document.getElementById('whatsapp');
 
 let git = document.getElementById('git');
 //let footer = document.getElementById('footer');
+
+btnWhatsapp.addEventListener('mouseenter', function Show(){
+
+    infTeste.style.display = "block";
+})
+btnWhatsapp.addEventListener('mouseleave', function Hide(){
+    infTeste.style.display = "none";
+})
 
 btnTheme.onclick = () => {
 

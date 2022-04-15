@@ -142,3 +142,16 @@ button{
     margin-top: 12px;
     margin-left: 20px;
 }
+.infTeste{
+    background-color:  rgb(0, 216, 14);
+    color: rgb(234, 234, 234);
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    margin-top: -190px;
+    margin-left: 725px;
+    display: none;
+}
