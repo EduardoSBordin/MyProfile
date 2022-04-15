@@ -7,6 +7,8 @@ let h4 = document.getElementById('h4');
 let btnHeader1 = document.getElementById('btnHeader1');
 let btnHeader2 = document.getElementById('btnHeader2');
 let btnHeader3 = document.getElementById('btnHeader3');
+
+let git = document.getElementById('git');
 //let footer = document.getElementById('footer');
 
 btnTheme.onclick = () => {
@@ -20,3 +22,6 @@ btnTheme.onclick = () => {
     btnHeader3.classList.toggle('active');
     //footer.classList.toggle('active');
 }
+
+
+
