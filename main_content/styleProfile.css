@@ -24,10 +24,11 @@ body{
     background: rgb(236,255,0);
     background: linear-gradient(90deg, rgba(236,255,0,1) 21%, rgba(0,255,171,1) 82%);
     background-attachment: fixed;
+    transition: 0.3s;
 }
 #main{
 
-    background: rgba(128, 128, 128, 0);
+    background: rgba(151, 65, 65, 0);
     height: 545px;
 }
 #navBar{
@@ -35,6 +36,7 @@ body{
     background: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
+    transition: 0.5s;
 }
 #infMain{
 
@@ -43,6 +45,11 @@ body{
     height: 100%;
     text-align: center;
     margin-top: -20px;
+    transition: 0.5s;
+}
+#infMain.activeBody, #navBar.activeBody{
+
+    background: rgb(29, 29, 29);
 }
 footer{
 
@@ -99,16 +106,17 @@ i:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #linkNav{
-    background:white;
+   
     text-decoration: none;
     margin: 5px;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 3px;
     font-size: 14pt;
     color: rgb(139, 139, 139);
-    transition: 0.4s;
+    transition: 0.5s;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
+
 #linkNav:hover{
 
     border-bottom: 2px solid brown;
@@ -123,7 +131,7 @@ i:hover{
     margin-top: 50px;
 }
 h1{
-
+    transition: 0.4s;
     font-family: 'Quicksand', sans-serif;
 }
 #linkView{
@@ -142,4 +150,16 @@ h1{
     color: brown;
     border-bottom: 2px solid brown;
    
+}
+#btnDarkMode{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14pt;
+}
+#h1.activeBody, #h1_2.activeBody{
+    color: white;
+}
+#iconDarkMode.activeBody{
+    color: gray;
 }
