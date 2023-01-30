@@ -1,88 +1,145 @@
+::-webkit-scrollbar {
+    width: 10px;
+    background: grey;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(163, 43, 43, 0); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(55, 55, 55); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+  }
 body{
-    background: #fafafa;
-    padding: 0px;
-    margin: 0px;
-    transition: 0.5s;
-}
-body.activeBody{
-    background: black;
+    margin: 0%;
+    background: rgb(236,255,0);
+    background: linear-gradient(90deg, rgba(236,255,0,1) 21%, rgba(0,255,171,1) 82%);
+    background-attachment: fixed;
 }
 #main{
 
-    background: rgba(255, 255, 255, 0);
-    width: 100%;
-    text-align: center;
+    background: rgba(128, 128, 128, 0);
+    height: 545px;
 }
 #navBar{
-    background: rgba(3, 137, 255, 0.637);
-    margin: auto;
-    width: 100%;
-    height: 80px;
-}
-#linkNav{
 
-    background: rgba(90, 90, 90, 0.5);
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    border: 2px solid rgba(255, 255, 255, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14pt;
-    transition: 0.4s;
-    cursor: pointer;
-    margin: 10px;
-}
-#linkNav:hover{
-
-    border-bottom: 2px solid red;
-}
-#btnDarkMode{
-
-    background: rgba(255, 255, 255, 0);
-    border: none;
-    text-decoration: none;
-    font-size: 18pt;
-    cursor: pointer;
-    transition: 0.4s;
-
-    margin-top: 25px;
-    margin-left: 5px;
-}
-#btnDarkMode:hover{
-
-    transform: scale(1.2);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
 }
 #infMain{
 
-    background: rgba(0, 128, 0, 0);
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
     text-align: center;
-}
-#mainImg{
-    width: 500px;
-    height: 600px;
-    border-radius: 10%;
+    margin-top: -20px;
 }
 footer{
 
-    background: rgba(255, 255, 0, 0);
+    background: rgb(236,255,0);
+    background: linear-gradient(90deg, rgba(236,255,0,1) 21%, rgba(0,255,171,1) 82%);
+    background-attachment: fixed;
     width: 100%;
-    height: auto;
-    margin-top: 15px;
+    height: 60px;
+    position: fixed;
+    margin-top: -25px;
 }
-#links{
-    border-radius: 50px;
-    background: linear-gradient(145deg, #e1e1e1, #ffffff);
-    box-shadow:  20px 20px 60px #d5d5d5,
-                 -20px -20px 60px #ffffff;
-    width: 200px;
-    border-radius: 10px;
+#divLinks{
     margin: auto;
-    padding: 30px;
+    margin-top: -30px;
+    background: rgb(255, 255, 255);
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    text-align: center;
+    padding: 10px;
 }
 #linkFooter{
-    width: 80px;
-    height: 100px;
-    background: grey;
-    color: white;
+    color: rgb(139, 139, 139);
+    background: rgba(255, 192, 203, 0);
+    margin: 15px;
+    font-size: 22pt;
+}
+i{
+    transition: 0.6s;
+}
+i:hover{
+    transform: scale(1.3);
+}
+.instagram:hover{
+    
+    color: #ff4040;
+    color: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);;
+}
+.linkdin:hover{
+
+    color: royalblue;
+}
+.github:hover{
+
+    color: black;
+}
+#mainImg{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#linkNav{
+    background:white;
     text-decoration: none;
-    margin: 8px;
+    margin: 5px;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 3px;
+    font-size: 14pt;
+    color: rgb(139, 139, 139);
+    transition: 0.4s;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+#linkNav:hover{
+
+    border-bottom: 2px solid brown;
+    color: brown;
+}
+#inf1{
+
+    background: rgba(255, 219, 219, 0);
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 50px;
+}
+h1{
+
+    font-family: 'Quicksand', sans-serif;
+}
+#linkView{
+
+    background: rgba(255, 255, 255, 0);
+    margin: auto;
+    position: relative;
+    text-decoration: none;
+    color: grey;
+    font-family: 'Quicksand', sans-serif;
+    transition: 0.5s;
+    padding: 3px;
+    border-bottom: 2px solid rgba(107, 20, 20, 0);
+}
+#linkView:hover{
+    color: brown;
+    border-bottom: 2px solid brown;
+   
 }
