@@ -30,6 +30,7 @@ body{
 
     background: rgba(151, 65, 65, 0);
     height: 545px;
+    
 }
 #navBar{
 
@@ -44,8 +45,11 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
-    margin-top: -20px;
+    margin-top: 30px;
     transition: 0.5s;
+
+    display: flex;
+    flex-direction: row;
 }
 #infMain.activeBody, #navBar.activeBody{
 
@@ -58,8 +62,7 @@ footer{
     background-attachment: fixed; */
     width: 100%;
     height: 60px;
-    position: fixed;
-    margin-top: 370px;
+    margin-top: 360px;
 }
 #divLinks{
     margin: auto;
