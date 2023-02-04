@@ -51,7 +51,7 @@ body{
     /* display: flex;
     flex-direction: row; */
 }
-#infMain.activeBody, #navBar.activeBody{
+#navBar.activeBody, .infBlack1.activeBody, .infBlack2.activeBody , .infBlack3.activeBody{
 
     background: rgb(29, 29, 29);
 }
@@ -125,7 +125,7 @@ i:hover{
     border-bottom: 2px solid brown;
     color: brown;
 }
-#inf1{
+.inf1{
 
     background: rgb(255, 255, 255);
     width: 400px;
@@ -133,6 +133,7 @@ i:hover{
     display: inline-block;
     margin: 50px;
     border-radius: 15px;
+    transition: 0.4s;
 }
 h1{
     transition: 0.4s;
