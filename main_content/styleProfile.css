@@ -182,3 +182,20 @@ h1{
 #iconDarkMode.activeBody{
     color: gray;
 }
+#modalDiv{
+
+    background: rgb(255, 255, 255);
+    width: 200px;
+    height: 100px;
+    /* display: none; */
+    position: fixed;
+    margin-left: 670px;
+    transition: 0.5s;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16pt;
+}
