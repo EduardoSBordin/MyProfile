@@ -51,7 +51,9 @@ body{
     /* display: flex;
     flex-direction: row; */
 }
-#navBar.activeBody, .infBlack1.activeBody, .infBlack2.activeBody , .infBlack3.activeBody{
+#navBar.activeBody, .infBlack1.activeBody,
+.infBlack2.activeBody , .infBlack3.activeBody,
+.infBlack4.activeBody, .infBlack5.activeBody{
 
     background: rgb(29, 29, 29);
 }
@@ -162,7 +164,8 @@ h1{
     cursor: pointer;
     font-size: 14pt;
 }
-#h1.activeBody, #h1_2.activeBody, #h1_3.activeBody{
+#h1.activeBody, #h1_2.activeBody, #h1_3.activeBody,
+#h1_4.activeBody, #h1_5.activeBody{
     color: white;
 }
 #iconDarkMode.activeBody{
