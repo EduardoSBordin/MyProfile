@@ -38,6 +38,16 @@ body{
     padding: 20px;
     text-align: center;
     transition: 0.5s;
+
+    margin-top: -30px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+
+    width: 500px;
+
+    
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 #navBar.activeBody{
     background: rgb(29, 29, 29);
@@ -106,6 +116,6 @@ p{
     width: 262px;
     height: 408px;
     border-radius: 10%;
-
+    margin-top: 40px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
