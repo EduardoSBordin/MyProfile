@@ -21,32 +21,28 @@
   }
 body{
     margin: 0%;
-    background: rgb(255, 60, 60);
-    background: linear-gradient(90deg, rgb(255, 84, 84) 21%, rgb(255, 153, 0) 82%);
+    background: whitesmoke;
     background-attachment: fixed;
     transition: 0.3s;
 }
 #main{
 
     background: rgba(151, 65, 65, 0);
-    height: 545px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     
 }
 #navBar{
 
-    background: rgb(255, 255, 255);
-    padding: 20px;
+    background: #6C55E0;
+    padding: 10px;
     text-align: center;
-    transition: 0.5s;
-
-    margin-top: -30px;
-    margin: auto;
     border-radius: 0px 0px 10px 10px;
-
-    width: 500px;
-
-    
-
+    position: fixed;
+    width: 100px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 #navBar.activeBody{
@@ -75,15 +71,14 @@ body{
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 3px;
     font-size: 14pt;
-    color: rgb(139, 139, 139);
-    transition: 0.5s;
+    color: white;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 
 #linkNav:hover{
 
-    border-bottom: 2px solid brown;
-    color: brown;
+    color: white;
+    font-weight: 600;
 }
 #btnDarkMode{
     background: none;
@@ -107,18 +102,18 @@ p{
     width: 300px;
     padding: 15px;
     border-radius: 10px;
+    color: #6C55E0;
     margin: auto;
     margin-top: -10px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 #mainImg{
 
     margin-top: 20px;
-    width: 250px;
-    height: 400px;
-    border-radius: 10px 10px 0px 0px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
+    width: 200px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;}
 
 footer{
 
@@ -134,6 +129,7 @@ footer{
     height: 35px;
     border-radius: 25px;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    /* background-image: linear-gradient(to right bottom, #00f4ff, #00d7ff, #00b7ff, #0092ff, #0066f8); */
     text-align: center;
     padding: 10px;
 }
