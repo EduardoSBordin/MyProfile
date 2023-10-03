@@ -184,8 +184,8 @@ h1{
 }
 #linkView:hover{
     
-   background: #8b71fd;
-   border: 1px solid #6c55e0;
+   background: #7f31a0;
+   transform: scale(1.1);
    color: whitesmoke;
 }
 #btnDarkMode{
