@@ -1,5 +1,5 @@
 const btnDarkMode = document.querySelector('#btnDarkMode');
-let getB = document.querySelector('body');
+let getB = document.querySelector('#main');
 
 let clickId = 0;
 btnDarkMode.addEventListener('click', () => {
@@ -27,17 +27,17 @@ function getTheme(){
     
     clickId++;
     if(clickId <= 1){
-        getB.style.background = '#25003A';
-        getB.style.backgroundAttachment = `fixed`;
+        // getB.style.background = '#25003A';
+        // getB.style.backgroundAttachment = `fixed`;
         getB.style.transition = '0.3s';
-        // getB.style.background = 'black';
+        getB.style.background = 'rgba(0, 0, 0, 0.872)';
         //console.log(getB.value);
     }else{
         clickId = 0;
-        getB.style.background = 'whitesmoke';
-        getB.style.backgroundAttachment = `fixed`;
+        //white
+        // getB.style.backgroundAttachment = `fixed`;
         getB.style.transition = '0.3s';
-        // getB.style.background = 'white';
+        getB.style.background = 'rgba(255, 255, 255, 0.904)';
         //console.log(getB.value);
     }
 
@@ -46,7 +46,7 @@ function getTheme(){
 }
 
 
-document.querySelector('body').style.background = localStorage.getItem('background');
+document.querySelector('#main').style.background = localStorage.getItem('background');
 
 //document.querySelector('#modalDiv').style.marginTop = '-200px';
 // document.querySelector('.btnProjects').addEventListener('click', () =>{
